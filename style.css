@@ -1,0 +1,116 @@
+/* style.css */
+body{
+  background: rgb(240,240,240);
+  color: rgb(40,40,40);
+  font-family: Helvetica;
+}
+
+h1{
+  font-family: Courier;
+  color: red;
+  margin: 0px;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+img{
+  border: 1px solid yellow;
+  background: lightblue;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+p{ 
+  text-align: center; 
+  margin: 0px;
+}
+
+/* styling for specific IDs and classes*/
+
+#banner{
+  text-align: center;
+  width: 100%;
+  background-image: src="images/reading.jpg";
+  background-size: cover;
+  margin: 0px
+}
+#banner h1 {
+  font-size: 33px;
+}
+#banner p {
+  padding: 16px;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer{
+  padding: 30px;
+  text-align: center;
+}
+#card{
+  padding: 1%;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 250px;
+}
+
+footer a {
+  color: lightgrey;
+  font-size: 25px;
+  border: 1px solid blue;
+  margin:20px;
+  text-align: center;
+}
+
+footer a:hover {
+  color: white;
+}
+
+body div div{
+  border: 1px solid red;
+  margin: 20px;
+  display: inline-block;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+footer p{
+  border: 1px solid orange;
+  text-align: center;  
+}
+
+body div{
+  text-align: center;
+}
+
+body #banner a{
+  display: none;
+}
+
+#maincontent{
+  display: none;
+}
+
+footer ul li{
+  display: inline-block;
+  text-align: center;
+}
